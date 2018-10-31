@@ -1,0 +1,15 @@
+<div class="card card-body">
+    <h3>想学的课程</h3>
+    <form action="/ideas" method="POST">
+        <div class="form-group">
+            <label for="title">标题</label>
+            <input type="text" class="form-control" name="title" value="{{title}}" >
+        </div>
+        <div class="form-group">
+            <label for="details">内容</label>
+            <textarea name="details" class="form-control" >{{details}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" >提交</button>
+    </form>
+
+</div>
